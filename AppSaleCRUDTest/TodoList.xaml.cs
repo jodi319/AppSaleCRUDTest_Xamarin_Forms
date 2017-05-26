@@ -56,7 +56,7 @@ namespace AppSaleCRUDTest
         public async void OnAdd(object sender, EventArgs e)
         {
             var todo = new TodoItem();
-
+            //
             if (updating)
             {
                 updatingItem.Name = newItemName.Text;
