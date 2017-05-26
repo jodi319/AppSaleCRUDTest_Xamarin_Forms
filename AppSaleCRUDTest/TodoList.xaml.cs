@@ -58,7 +58,7 @@ namespace AppSaleCRUDTest
             var todo = new TodoItem();
             //
             if (updating)
-            {
+            {//
                 updatingItem.Name = newItemName.Text;
                 todo = updatingItem;
                 updating = false;
